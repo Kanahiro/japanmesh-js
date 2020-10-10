@@ -84,8 +84,8 @@ function make_mesh(meshnum: string, x: number, y: number): MeshFeature {
     const top_lat = MINIMUM_LAT + (y + 1) * meshsize[1];
 
     let base_meshcode =
-        String(Math.round(bottom_lat * 1.5)) +
-        String(Math.round(left_lon)).substr(1);
+        String(Math.floor(bottom_lat * 1.5)) +
+        String(Math.floor(left_lon)).substr(1);
 
     return {
         type: 'Feature',

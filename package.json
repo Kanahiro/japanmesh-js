@@ -1,5 +1,5 @@
 {
-    "name": "japan-mesh",
+    "name": "japanmesh",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/index.js",
@@ -8,7 +8,7 @@
         "dist"
     ],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "ts-node test/test.ts",
         "build": "tsc",
         "prepare": "npm run build"
     },
@@ -18,5 +18,8 @@
         "@types/geojson": "^7946.0.7",
         "@types/node": "^14.11.5",
         "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "ts-node": "^9.0.0"
     }
 }

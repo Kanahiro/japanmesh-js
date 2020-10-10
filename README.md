@@ -1,12 +1,12 @@
 ## usage
 
 ```
-npm install japanmesh
+npm install japanmesh-maker
 ```
 
 ```javascript
-const japanmesh = require('japanmesh');
-let geojson = japanmesh.make_meshes('2');
+const japanmesh_maker = require('japanmesh-maker');
+let geojson = japanmesh_maker.make_meshes('2');
 /*
 {
     "type": "FeatureCollection",

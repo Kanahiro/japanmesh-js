@@ -16,3 +16,6 @@ console.log(mesh3);
 let mesh4 = make_mesh('4', 0, 0);
 console.assert(mesh4.properties.code === '302200001');
 console.log(mesh4);
+
+let meshes = make_meshes('1', [122.0, 20.0, 130.0, 30.0]);
+console.log(JSON.stringify(meshes));

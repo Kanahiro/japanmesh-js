@@ -127,7 +127,6 @@ function make_meshes(
         const max_lon = Math.max(extent[0], extent[2]);
         const max_lat = Math.max(extent[1], extent[3]);
 
-        // [左下経緯度, 右上経緯度]にソート
         const start_lonlat: [number, number] = [min_lon, min_lat];
         const end_lonlat: [number, number] = [max_lon, max_lat];
 
